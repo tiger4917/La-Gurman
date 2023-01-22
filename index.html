@@ -5,6 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+                           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>La-Gurman</title>
 </head>
@@ -14,9 +25,11 @@
         <div class="container">
             <div class="header__line">
                 <div class="logo">
-                    <div class="burger">
-                        <img src="images/icons/header-icons/burger-menu.svg" alt="burger">
-                    </div>
+                    <a href="#" class="link-burger">
+                        <div class="burger">
+                            <img src="images/icons/header-icons/burger-menu.svg" alt="burger">
+                        </div>
+                    </a>
                     <img src="images/img/header-img/logo-header.png" alt="logo">
                 </div>
                 <ul class="menu__list">
@@ -58,25 +71,27 @@
     </header>
     <main class="main">
         <section class="recipe">
-            <div class="container">
+            <div class="container-recipe">
                 <div class="green-block">
                     <img class="big-plate" src="images/img/recipe-img/big-plate.png" alt="big-plate">
                     <img class="middle-plate" src="images/img/recipe-img/middle-plate.png" alt="middle-plate">
-                    <img src="images/img/recipe-img/little-plate.png" alt="little-plate">
+                    <img class="little-plate" src="images/img/recipe-img/little-plate.png" alt="little-plate">
                     <h1 class="recipe-title">
                         Рецепты и доставка продуктов по ним
                     </h1>
-                    <p class="recipe-text">
-                        Смотрите популярные рецепты любимых авторов
-                    </p>
-                    <p class="recipe-text">
-                        Сравнивайте стоимость продуктовой корзины
-                        в магазинах
-                    </p>
-                    <p class="recipe-text">
-                        Заказывайте доставку продуктов со скидкой
-                        до двери
-                    </p>
+                    <div class="recipe__textline">
+                        <p class="recipe-text">
+                            Смотрите популярные рецепты любимых авторов
+                        </p>
+                        <p class="recipe-text">
+                            Сравнивайте стоимость продуктовой корзины
+                            в магазинах
+                        </p>
+                        <p class="recipe-text">
+                            Заказывайте доставку продуктов со скидкой
+                            до двери
+                        </p>
+                    </div>
                     <div class="recipe__bottom-line">
                         <ul class="recipe__list">
                             <li class="recipe__item">
@@ -101,25 +116,27 @@
                 <div class="yellow-block">
                     <h3 class="yellow__title">Что готовим сегодня?</h3>
                     <img class="yellow__plate" src="images/img/recipe-img/rectangle-plate.png" alt="rectangle-plate">
+                    <div class="view">
+                        <img src="images/icons/recipe-icons/eye.svg" alt="eye">
+                        <div class="view-value">790</div>
+                        <div class="view-data">27/08/2022</div>
+                    </div>
+                    <div class="icon-line">
+                        <div class="yellow__info">
+                            <img src="images/icons/recipe-icons/clock.svg" alt="clock">
+                            <p class="info-text">20 мин</p>
+                        </div>
+                        <div class="yellow__info">
+                            <img src="images/icons/recipe-icons/zap.svg" alt="zap">
+                            <p class="info-text">Легко</p>
+                        </div>
+                        <div class="yellow__info">
+                            <img src="images/icons/recipe-icons/dollar.svg" alt="dollar">
+                            <p class="info-text">Бюджетно</p>
+                        </div>
+                    </div>
+                    <p class="yellow-text">Омлет из страусиных яиц с зеленью</p>
                 </div>
-                <div class="view">
-                    <img src="images/icons/recipe-icons/eye.svg" alt="eye">
-                    <div class="view-value">790</div>
-                    <div class="view-data">27/08/2022</div>
-                </div>
-                <div class="yellow__info">
-                    <img src="images/icons/recipe-icons/clock.svg" alt="clock">
-                    <p class="info-text">20 мин</p>
-                </div>
-                <div class="yellow__info">
-                    <img src="images/icons/recipe-icons/zap.svg" alt="zap">
-                    <p class="info-text">Легко</p>
-                </div>
-                <div class="yellow__info">
-                    <img src="images/icons/recipe-icons/dollar.svg" alt="dollar">
-                    <p class="info-text">Бюджетно</p>
-                </div>
-                <p class="yellow-text">Омлет из страусиных яиц с зеленью</p>
             </div>
         </section>
         <section class="bestsallers">

@@ -1,1 +1,341 @@
+
+
+
 @import 'reset';
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.header {
+    padding: 20px 0;
+
+    &__line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.container {
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.burger {
+}
+.link-burger {
+    padding: 7px;
+    background: #F5F5F5;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.menu {
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        margin-left: 35px;
+    }
+
+    &__link {
+        color: #000000;
+    }
+}
+.right-side {
+    display: flex;
+}
+.add-recipe a{
+    
+    align-items: center;
+    margin-left:10px;
+    padding: 12px 20px;
+    color: #000000;
+}
+.icons-line {
+}
+.icon-link {
+    margin-left: 23px;
+
+}
+.icons-line:first-child {margin-left: 32px};
+.main {
+}
+.recipe {
+    display: flex;
+    
+
+    &__bottom-line {
+        display: flex;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+    }
+
+    &__link {
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding:10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #142A3B;
+    }
+    
+
+    
+
+    &__btn {
+    }
+}
+.container-recipe {
+    display: flex;
+    gap: 20px;
+}
+.green-block {
+    position: relative;
+    background: radial-gradient(74.31% 512.24% at 42.95% 52.78%, #BEDE80 0%, #58C04F 100%);
+    border-radius: 10px;
+}
+
+.recipe-title {
+    font-size: 50px;
+    line-height: 95.9%;
+    color: #2D4B06;
+}
+.recipe-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 119.5%;
+    color: #142A3B;
+}
+.recipe__textline {
+    display: flex;
+}
+.yellow-block {
+    background: #FFF0CC;
+    border-radius: 10px;
+    
+}
+.big-plate {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+} 
+.middle-plate {
+    position: absolute;
+    top: 23px;
+    left: 223px;
+}
+.little-plate {
+    position: absolute;
+    top: 34px;
+    left: 34px;
+
+}
+
+.yellow {
+    
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 110%;
+        color: #142A3B;
+    }
+
+    &__plate {
+    }
+
+    &__info {
+        display: flex;
+        gap:3px ;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 11px;
+        display: flex;
+        align-items: center;
+        color: #142A3B;
+        background: #F5F5F5;
+        border-radius: 10px;
+        padding: 10px 16px;
+    }
+}
+.view {
+    display: flex;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    color: #142A3B;
+    
+}
+.icon-line {
+    display: flex;
+    justify-content: space-around;
+}
+.view-value {
+}
+.view-data {
+}
+.info-text {
+}
+.yellow-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 116.5%;
+    color: #142A3B;
+}
+.bestsallers {
+
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__carts {
+    }
+}
+.carts {
+
+    &__item {
+    }
+}
+.block-photo {
+}
+.info {
+}
+.ccal {
+}
+.food-name {
+}
+.hashteg {
+}
+.cheefs-menu {
+
+    &__header {
+    }
+
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__cards {
+    }
+
+    &__item {
+    }
+}
+.create-menu {
+
+    &__title {
+    }
+
+    &__subtitle {
+    }
+}
+.btn-create-menu {
+}
+.title-line-bottom {
+}
+.text-info {
+}
+.week-menu {
+
+    &__title {
+    }
+
+    &__cards {
+    }
+
+    &__item {
+    }
+}
+.undertitle {
+}
+.week-menu-list {
+}
+.week-menu-item {
+}
+.week-menu-link {
+}
+.text {
+}
+.week {
+}
+.day {
+}
+.week-link {
+}
+.foodblogers {
+
+    &__header {
+    }
+
+    &__title {
+    }
+}
+.title-text {
+}
+.header-img {
+}
+.foodblogers-cards {
+}
+.gastronom {
+
+    &__title {
+    }
+
+    &__link {
+    }
+
+    &__item {
+    }
+}
+.item-name {
+}
+.want-earn {
+
+    &__title {
+    }
+}
+.promo-block {
+}
+.block-info {
+}
+.btn {
+}
+.footer {
+
+    &__logo {
+    }
+
+    &__list {
+    }
+
+    &__item {
+    }
+
+    &__link {
+    }
+}
+.logo-text {
+}
+.line-bottom {
+}
